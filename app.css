@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6, div, span, button, li {
+  font-family: "Chicle", cursive; }
+
+.game-container {
+  text-align: center;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto; }
+  .game-container h1 {
+    font-size: 3rem;
+    margin: 1rem 0; }
+  .game-container .features {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-wrap: wrap; }
+    .game-container .features .moves-count, .game-container .features .timer-container, .game-container .features .stars-rating, .game-container .features .repeat {
+      width: 50%;
+      margin-bottom: 1rem;
+      text-align: center; }
+    .game-container .features .timer-container, .game-container .features .stars-rating {
+      text-align: center; }
+    .game-container .features .stars-rating .star {
+      color: #ffb400; }
+    .game-container .features .repeat .play-again {
+      cursor: pointer;
+      transition: all 300ms ease; }
+      .game-container .features .repeat .play-again:hover {
+        transform: rotate(90deg); }
+
+.cards {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 auto; }
+  .cards li {
+    display: inline-block;
+    margin: 1%;
+    margin-bottom: 1vw;
+    width: 23%;
+    height: 80px;
+    line-height: 90px;
+    text-align: center;
+    background: #333;
+    color: #eee; }
+    .cards li.disabled {
+      pointer-events: none; }
+    .cards li.show i {
+      opacity: 1; }
+    .cards li.matched {
+      background: green; }
+    .cards li i {
+      font-size: 25px;
+      opacity: 0;
+      transition: all 300ms ease; }
+
+.modal {
+  position: absolute;
+  top: -150%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 99;
+  transition: all 300ms ease; }
+  .modal .inner {
+    width: 50%;
+    margin: 10% auto;
+    padding: 2em;
+    text-align: center;
+    background: #fffc;
+    box-shadow: 0px 0px 4px 1px #d4d4d4b3; }
+    .modal .inner h2 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em; }
+    .modal .inner p {
+      font-size: 1.4em;
+      margin-bottom: 0.5em; }
+    .modal .inner button {
+      margin-top: 1.5em;
+      padding: 0.5em 3em;
+      font-size: 1.1em;
+      border: 0;
+      background: #fff;
+      box-shadow: 1px 1px 5px 0px #ccc;
+      cursor: pointer;
+      transition: all 300ms ease; }
+      .modal .inner button:hover {
+        box-shadow: none; }
+
+/* Responsive */
+@media all and (min-width: 600px) {
+  .cards {
+    width: 500px; }
+    .cards li {
+      height: 100px;
+      line-height: 120px; }
+      .cards li i {
+        font-size: 30px; } }
+@media all and (min-width: 750px) {
+  .game-container h1 {
+    font-size: 3.5rem; }
+  .game-container .features {
+    font-size: 2rem; }
+
+  .cards {
+    width: 650px; }
+    .cards li {
+      height: 140px;
+      line-height: 160px; }
+      .cards li i {
+        font-size: 40px; } }
+@media all and (min-width: 1000px) {
+  .cards li {
+    height: 140px;
+    line-height: 160px; } }
+
+/*# sourceMappingURL=app.css.map */
