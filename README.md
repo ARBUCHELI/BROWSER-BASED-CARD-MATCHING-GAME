@@ -6,10 +6,23 @@ The app relies only JavaScript and doesn't make use of any external libraries.
 
 Initial Screen:
 
-![Initial Screen]()
+![Initial Screen](https://github.com/anferebu/BROWSER-BASED-CARD-MATCHING-GAME/blob/master/Initial%20Screen.jpg)
 
+The user select two cards to check if the cards match, the moves are counted and the stopwatch is running:
 
+![User playing](https://github.com/anferebu/BROWSER-BASED-CARD-MATCHING-GAME/blob/master/Playing%20Screen.jpg)
 
+When two cards match.  The cards are flipped out from the screen:
+
+![Flipped out](https://github.com/anferebu/BROWSER-BASED-CARD-MATCHING-GAME/blob/master/Flipped%20out.jpg)
+
+The game ends up when all the cards are flipped out from the screen:
+
+![Almost finished](https://github.com/anferebu/BROWSER-BASED-CARD-MATCHING-GAME/blob/master/Almost%20finished.jpg)
+
+When the game is over a message with the performance of the user and a button appear in the screen asking the user if the user wants to play again:
+
+![Message](https://github.com/anferebu/BROWSER-BASED-CARD-MATCHING-GAME/blob/master/Message.jpg)
 
 <strong>INSTRUCTIONS</strong>
 
