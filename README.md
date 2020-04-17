@@ -43,4 +43,4 @@ When the game is over a message with the performance of the user and a button ap
 3. Moves counter.
 4. Live Stopwatch.
 
-Author: Andrés R. Bucheli.
+# Author: Andrés R. Bucheli.
